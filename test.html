@@ -1,0 +1,13 @@
+<script src="js/angular.js"></script>
+<script src="app-js/app.js"></script>
+<!--<script src="app-js/controller.js"></script>-->
+<div ng-app="app">
+    <div ng-controller="appController">
+        <ul>
+            <li ng-repeat="phone in phones">
+                <span>{{phone.name}}</span>
+                <p>{{phone.snippet}}</p>
+            </li>
+        </ul>
+    </div>
+</div>
